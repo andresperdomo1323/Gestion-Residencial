@@ -1,0 +1,52 @@
+
+  .logo-icon {
+    color: #709085;
+  }
+
+  
+  .login-title {
+    letter-spacing: 1px;
+  }
+  .form-container {
+    padding: 2rem;
+    border-radius: 8px;
+    background-color: white; /* Agrega un fondo blanco al formulario */
+    box-shadow: 0 4px 8px rgba(68, 46, 194, 0.1); /* Agrega una sombra al formulario */
+  }
+  
+  .login-image {
+    object-fit: cover;
+    object-position: left;
+  }
+  .rounded-image {
+    width: 100%; /* Reduce el ancho de la imagen */
+    height: 30%; /* Reduce el alto de la imagen */
+    border-radius: 5px; /* Redondea las esquinas */
+    object-fit: cover; /* Ajusta la imagen al contenedor */
+    position: relative; /* permite usar top, left, bottom, right */
+    top: 50%; /* centra verticalmente */
+    left: 50%; /* centra horizontalmente */
+    transform: translate(-50%, -50%); /* centra correctamente */
+  }
+  .register-link-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 10px; /* Reducimos el margen inferior */
+  }
+  
+  .register-link {
+    margin-left: 8px;
+    margin-bottom: 18px;
+  }
+  .login-section {
+    background: linear-gradient(135deg, #ffffff, #99c2ff); /* Degradado azul */
+    min-height: 100vh; /* Asegura que el degradado cubra toda la altura de la pantalla */
+    display: flex; /* Añadimos flexbox para centrar el contenido */
+    justify-content: center; /* Centramos horizontalmente */
+    align-items: center; /* Centramos verticalmente */
+  }
+  
+  /* Resto de tus estilos... */
+  
